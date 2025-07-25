@@ -6,7 +6,7 @@ Installation
 
 Get a free API Key at ``` https://openrouter.ai/ ```
 Clone the repo
- bash ``` git clone https://github.com/rgopalan01/AI-Code-Editor.git```
+  ```bash git clone https://github.com/rgopalan01/AI-Code-Editor.git```
 ```cd AI-Code-Editor ```
 
 Install dependencies
