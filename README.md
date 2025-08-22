@@ -1,37 +1,8 @@
 # AI-Code-Editor-
 
-This is a AI Code Editor built off off the Judge0 repo 
+This is a AI Code Editor built off off the Judge0 repo, where an AI-powered developer tool that leverages large language models to assist with debugging, code generation, and execution analysis, built for fast-moving startup environments.
+<img width="825" height="431" alt="Screenshot 2025-08-22 at 12 46 51 AM" src="https://github.com/user-attachments/assets/4ba410a8-d9d8-4c89-8058-90cc2a701ad2" />
 
-# Judge0 IDE
-[![Judge0 IDE Screenshot](./.github/screenshot.png)](https://ide.judge0.com)
-
-[![License](https://img.shields.io/github/license/judge0/ide?color=2185d0&style=flat-square)](https://github.com/judge0/ide/blob/master/LICENSE)
-[![Release](https://img.shields.io/github/v/release/judge0/ide?color=2185d0&style=flat-square)](https://github.com/judge0/ide/releases)
-[![Stars](https://img.shields.io/github/stars/judge0/ide?color=2185d0&style=flat-square)](https://github.com/judge0/ide/stargazers)
-
-<a href="https://www.producthunt.com/posts/judge0-ide" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=179885&theme=light" alt="" height="43px" /></a>
-
-## About
-[**Judge0 IDE**](https://ide.judge0.com) is a free and open-source online code editor that allows you to write and execute code from a rich set of languages. It's perfect for anybody who just wants to quickly write and run some code without opening a full-featured IDE on their computer. Moreover, it is also useful for teaching and learning or just trying out a new language.
-
-Judge0 IDE is using [**Judge0**](https://ce.judge0.com) for executing the user's source code.
-
-Visit https://ide.judge0.com, and enjoy happy coding. :)
-
-## Community
-Do you have a question, feature request, or something else on your mind? Or do you want to follow Judge0 news?
-
-* [Subscribe to Judge0 newsletter](https://subscribe.judge0.com)
-* [Join our Discord server](https://discord.gg/GRc3v6n)
-* [Watch asciicasts](https://asciinema.org/~hermanzdosilovic)
-* [Report an issue](https://github.com/judge0/judge0/issues/new)
-* [Contact us](mailto:contact@judge0.com)
-* [Schedule an online meeting with us](https://meet.judge0.com)
-
-## Author and Contributors
-Judge0 IDE was created by [Herman Zvonimir Došilović](https://github.com/hermanzdosilovic).
-
-Thanks a lot to all [contributors](https://github.com/judge0/ide/graphs/contributors) for their contributions to this project.
 
 
 # Getting Started
@@ -49,7 +20,33 @@ Follow these steps to run the project locally.
    ```bash
    git clone https://github.com/rgopalan01/AI-Code-Editor.git
    cd AI-Code-Editor
+   ```
+   3. Install dependencies:
+   ```bash
+   npm install 
+   ```
+   4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+   5. Open http://localhost:3000 in your browser.
 
+## Usage
+1. Select a programming language  
+2. Write your code in the Monaco-powered editor  
+3. Click **"Run Code"** to execute via the Judge0 API  
+4. Use the AI Assistant to get:  
+   - Error explanations  
+   - Code optimizations  
+   - Debugging insights  
+
+## Roadmap
+- [ ] AI-Powered Debugging: Automatic Error Detection  
+- [ ] Code Autocomplete  
+- [ ] Multi-Model Support  
+  - [x] Gemini-Flash-1.5  
+  - [ ] DeepSeek-V3  
+  - [ ] Claude 3.5 Sonnet  
 
 ## License
 Judge0 IDE is licensed under the [MIT License](https://github.com/judge0/ide/blob/master/LICENSE).
