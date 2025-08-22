@@ -33,6 +33,24 @@ Judge0 IDE was created by [Herman Zvonimir Došilović](https://github.com/herma
 
 Thanks a lot to all [contributors](https://github.com/judge0/ide/graphs/contributors) for their contributions to this project.
 
+
+# Getting Started
+
+Follow these steps to run the project locally.
+
+## Prerequisites
+- Node.js (v16+)
+- Git installed
+- API key from [OpenRouter.ai](https://openrouter.ai/)
+
+## Installation
+1. Get a free API key at [OpenRouter.ai](https://openrouter.ai/)
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/rgopalan01/AI-Code-Editor.git
+   cd AI-Code-Editor
+
+
 ## License
 Judge0 IDE is licensed under the [MIT License](https://github.com/judge0/ide/blob/master/LICENSE).
 
